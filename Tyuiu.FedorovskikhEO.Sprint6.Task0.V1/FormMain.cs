@@ -7,7 +7,6 @@ namespace Tyuiu.FedorovskikhEO.Sprint6.Task0.V1
         {
             InitializeComponent();
         }
-
         private void FormMain_Load(object sender, EventArgs e)
         {
 
