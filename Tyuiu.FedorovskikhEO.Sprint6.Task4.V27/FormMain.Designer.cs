@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             panelTop_FEO = new Panel();
             buttonHelp_FEO = new Button();
             buttonSave_FEO = new Button();
@@ -68,6 +68,7 @@
             panelTop_FEO.Name = "panelTop_FEO";
             panelTop_FEO.Size = new Size(1014, 125);
             panelTop_FEO.TabIndex = 0;
+            panelTop_FEO.Paint += panelTop_FEO_Paint;
             // 
             // buttonHelp_FEO
             // 
@@ -205,16 +206,16 @@
             // chartFunction_FEO
             // 
             chartFunction_FEO.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            chartArea2.Name = "ChartArea1";
-            chartFunction_FEO.ChartAreas.Add(chartArea2);
-            legend2.Name = "Legend1";
-            chartFunction_FEO.Legends.Add(legend2);
+            chartArea1.Name = "ChartArea1";
+            chartFunction_FEO.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            chartFunction_FEO.Legends.Add(legend1);
             chartFunction_FEO.Location = new Point(110, 25);
             chartFunction_FEO.Name = "chartFunction_FEO";
-            series2.ChartArea = "ChartArea1";
-            series2.Legend = "Legend1";
-            series2.Name = "Series1";
-            chartFunction_FEO.Series.Add(series2);
+            series1.ChartArea = "ChartArea1";
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            chartFunction_FEO.Series.Add(series1);
             chartFunction_FEO.Size = new Size(375, 375);
             chartFunction_FEO.TabIndex = 4;
             chartFunction_FEO.Text = "chart2";

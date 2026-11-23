@@ -100,7 +100,7 @@ namespace Tyuiu.FedorovskikhEO.Sprint6.Task4.V27
 
         private void buttonHelp_FEO_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Выполнила: Федоровских Е.О.\nГруппа: ИСТНб-26-1\nСпринт 6, Задание 4, Вариант 27","Справка");
+            MessageBox.Show("Выполнила: Федоровских Е.О.\nГруппа: ИСТНб-26-1\nСпринт 6, Задание 4, Вариант 27", "Справка");
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -129,6 +129,11 @@ namespace Tyuiu.FedorovskikhEO.Sprint6.Task4.V27
         }
 
         private void textBoxStopStep_FEO_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panelTop_FEO_Paint(object sender, PaintEventArgs e)
         {
 
         }
