@@ -7,6 +7,7 @@ namespace Tyuiu.FedorovskikhEO.Sprint6.Task5.V22.Lib
         public double[] LoadFromDataFile(string path)
         {
             int len = 0;
+
             using (StreamReader reader = new StreamReader(path))
             {
                 string line;
