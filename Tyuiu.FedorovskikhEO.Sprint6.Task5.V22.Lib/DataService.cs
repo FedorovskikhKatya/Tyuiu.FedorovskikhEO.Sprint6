@@ -1,4 +1,4 @@
-﻿using System.IO:
+﻿using System.IO;
 using tyuiu.cources.programming.interfaces.Sprint6;
 namespace Tyuiu.FedorovskikhEO.Sprint6.Task5.V22.Lib
 {
