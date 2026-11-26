@@ -9,7 +9,7 @@ namespace Tyuiu.FedorovskikhEO.Sprint6.Task0.V1
         }
         private void FormMain_Load(object sender, EventArgs e)
         {
-
+             
         }
 
         private void labelCondition_FEO_Click(object sender, EventArgs e)
@@ -58,14 +58,17 @@ namespace Tyuiu.FedorovskikhEO.Sprint6.Task0.V1
 
         private void buttonHelp_FEO_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(
-    "Задание выполнила: Федоровских Екатерина Олеговна\n" +
-    "Группа: ИСТНб-26-1\n" +
-    "Вариант: 1\n" +
-    "Вычислить выражение y(x) = x / (x^3 + 2)",
-    "Справка",
-    MessageBoxButtons.OK,
-    MessageBoxIcon.Information);
+            MessageBox.Show("Задание выполнила: Федоровских Екатерина Олеговна\n" + "Группа: ИСТНб-26-1\n" + "Вариант: 1\n" + "Вычислить выражение y(x) = x / (x^3 + 2)", "Справка", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void groupBoxInput_FEO_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBoxOutput_FEO_Enter(object sender, EventArgs e)
+        {
+
         }
     }
 }

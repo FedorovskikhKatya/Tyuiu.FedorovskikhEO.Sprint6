@@ -86,6 +86,7 @@
             groupBoxInput_FEO.TabIndex = 3;
             groupBoxInput_FEO.TabStop = false;
             groupBoxInput_FEO.Text = "Ввод данных";
+            groupBoxInput_FEO.Enter += groupBoxInput_FEO_Enter;
             // 
             // textBoxVarX_FEO
             // 
@@ -116,6 +117,7 @@
             groupBoxOutput_FEO.TabIndex = 4;
             groupBoxOutput_FEO.TabStop = false;
             groupBoxOutput_FEO.Text = "Вывод данных";
+            groupBoxOutput_FEO.Enter += groupBoxOutput_FEO_Enter;
             // 
             // textBoxResult_FEO
             // 
